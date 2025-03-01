@@ -60,6 +60,18 @@
             font-size: 1.5em;
             margin-top: 10px;
         }
+
+        /* New Styling for Button Alignment */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .button-container .btn {
+            margin-top: 0; /* Remove extra margin-top */
+        }
     </style>
 </head>
 <body>
@@ -85,12 +97,9 @@
             </div>
         </div>
 
-        <div style="margin-top: 30px;">
+        <!-- Buttons aligned next to each other -->
+        <div class="button-container">
             <a href="https://discord.gg/qboostz" class="btn">Join Our Discord</a>
-        </div>
-    </div>
-
-  <div style="margin-top: 30px;">
             <a href="https://www.qboost.cc" class="btn">Buy Boosts Here</a>
         </div>
     </div>
